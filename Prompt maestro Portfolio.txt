@@ -1,0 +1,799 @@
+PROMPT MAESTRO — PORTFOLIO PERSONAL DE IGNACIO VILLA Utilizando la imagen que esta en la carpeta imagenes. Y utilizando el siguiente promt, hace un portfolio.
+
+Quiero que desarrolles un portfolio personal profesional, moderno y de alto nivel para Ignacio Villa, utilizando mis proyectos reales como evidencia de mi trabajo.
+
+El sitio debe transmitir la identidad de una persona que está construyendo su camino como desarrollador web / Full Stack Developer, con especial interés en tecnología, inteligencia artificial y creación de productos digitales.
+
+NO quiero que inventes experiencia laboral, clientes, empresas, testimonios, títulos universitarios ni años de experiencia que no hayan sido proporcionados.
+
+El portfolio debe vender principalmente una idea:
+
+Ignacio Villa — Desarrollo experiencias web modernas, funcionales y pensadas para resolver problemas reales.
+
+1. IDENTIDAD PRINCIPAL
+Nombre
+
+IGNACIO VILLA
+
+Utilizar mi nombre como marca principal.
+
+No utilizar "Jack", "Villa Labs" ni otro nombre como identidad principal.
+
+La marca debe ser:
+
+Ignacio Villa
+
+Subtítulo sugerido:
+
+Desarrollador Web · Full Stack · Tecnología & IA
+
+También podés utilizar variantes como:
+
+Desarrollo web moderno con visión de producto.
+
+o:
+
+Construyo sitios web, interfaces y experiencias digitales.
+
+El texto final debe sentirse profesional pero humano, no como una plantilla corporativa genérica.
+
+2. CONCEPTO VISUAL
+
+Quiero un portfolio con estética:
+
+premium
+tecnológica
+minimalista
+moderna
+oscura
+editorial
+experimental
+profesional
+con mucho espacio visual
+tipografía grande
+animaciones sutiles
+microinteracciones
+excelente responsive design
+
+La inspiración general debe estar entre:
+
+portfolio de desarrollador + estudio digital + diseño editorial + laboratorio tecnológico.
+
+NO quiero una web genérica de programador con:
+
+fondo de código
+demasiados gradientes
+exceso de tarjetas
+íconos tecnológicos por todas partes
+clichés de "I love coding"
+gráficos innecesarios
+exceso de efectos de hacker
+
+La página debe parecer diseñada por un diseñador/desarrollador profesional.
+
+3. TECNOLOGÍAS
+
+Utilizar preferentemente:
+
+React
+TypeScript
+Tailwind CSS
+Framer Motion
+Lucide React
+
+Si el proyecto utiliza Next.js, mantener Next.js.
+
+Si se utiliza Vite, mantener Vite.
+
+No cambiar innecesariamente la arquitectura existente.
+
+El código debe ser:
+
+limpio
+modular
+reutilizable
+responsive
+accesible
+semántico
+fácil de mantener
+4. HERO
+
+El Hero debe ser la parte más impactante de la página.
+
+Debe mostrar claramente:
+
+IGNACIO VILLA
+
+y debajo:
+
+Desarrollador Web · Full Stack · Tecnología & IA
+
+Texto de presentación:
+
+Diseño y desarrollo experiencias digitales modernas, combinando código, diseño y tecnología para transformar ideas en productos web funcionales.
+
+Agregar dos CTA:
+
+VER PROYECTOS
+
+y
+
+CONTACTARME
+
+El CTA de proyectos debe hacer scroll hacia la sección de proyectos.
+
+El CTA de contacto debe llevar a la sección de contacto.
+
+5. HERO VISUAL
+
+No quiero depender de un fondo animado complejo.
+
+Preferentemente utilizar una composición visual basada en:
+
+tipografía
+imágenes
+screenshots de mis proyectos
+mockups de dispositivos
+elementos geométricos
+pequeñas animaciones
+detalles visuales relacionados con desarrollo web
+
+La estética debe sentirse sofisticada.
+
+Podés utilizar una composición donde aparezcan parcialmente capturas de mis proyectos, como si fueran piezas de un archivo digital.
+
+Las imágenes deben tener:
+
+bordes suaves
+sombras
+profundidad
+pequeñas animaciones al aparecer
+hover sutil
+
+Evitar parallax excesivo.
+
+Evitar efectos que puedan romperse o generar problemas de rendimiento.
+
+6. MARQUEE / FRASE EN MOVIMIENTO
+
+Después del Hero agregar una sección horizontal animada.
+
+Ejemplo:
+
+DESARROLLO WEB — DISEÑO DIGITAL — FULL STACK — IA — EXPERIENCIAS DIGITALES —
+
+La animación debe ser:
+
+lenta
+continua
+elegante
+
+Debe detenerse o reducirse cuando corresponda según prefers-reduced-motion.
+
+7. SOBRE MÍ
+
+Crear una sección:
+
+SOBRE MÍ
+
+Título grande:
+
+Construyendo mi camino en tecnología, un proyecto a la vez.
+
+Texto:
+
+Soy Ignacio Villa, desarrollador web en formación y creador de proyectos digitales. Me interesa combinar desarrollo, diseño y nuevas tecnologías para crear experiencias web modernas, útiles y visualmente atractivas.
+
+Continuar explicando de forma natural que mi enfoque está en:
+
+aprender construyendo
+resolver problemas reales
+mejorar continuamente
+experimentar con tecnologías modernas
+incorporar herramientas de inteligencia artificial al proceso de desarrollo
+
+NO inventar títulos, empresas ni experiencia profesional.
+
+La sección debe sentirse personal, no como un CV corporativo.
+
+8. MIS PROYECTOS
+
+Esta será una de las secciones MÁS IMPORTANTES del portfolio.
+
+Título:
+
+PROYECTOS
+
+Subtítulo:
+
+Una selección de interfaces y experiencias web que desarrollé.
+
+Utilizar mis cuatro proyectos reales.
+
+No inventar proyectos adicionales.
+
+PROYECTO 01 — JEIPI BURGERS
+
+Nombre:
+
+Jeipi Burgers
+
+Categoría:
+
+WEB DEVELOPMENT · GASTRONOMÍA
+
+URL:
+
+https://ignaciovilla398.github.io/JEIPI-BURGERS/
+
+Este proyecto corresponde a una web para una marca de hamburguesas estilo smash de Mar del Plata. El sitio presenta menú, productos, sucursales, información de la marca y contacto.
+
+La tarjeta del proyecto debe mostrar una captura visual del sitio.
+
+Descripción sugerida:
+
+Desarrollo de una experiencia web para una marca gastronómica de Mar del Plata, con foco en identidad visual, presentación de productos, navegación y conversión.
+
+Botón:
+
+VER PROYECTO ↗
+
+Al hacer click debe abrir:
+
+https://ignaciovilla398.github.io/JEIPI-BURGERS/
+
+PROYECTO 02 — AMBOS & ASOCIADOS
+
+Nombre:
+
+Ambos & Asociados
+
+Categoría:
+
+WEB DEVELOPMENT · ESTUDIO JURÍDICO
+
+URL:
+
+https://ignaciovilla398.github.io/ambos-y-asociados/
+
+El proyecto corresponde al sitio de un estudio jurídico integral de Mar del Plata, con secciones de profesionales, áreas legales, corresponsalías, preguntas frecuentes y contacto.
+
+Descripción sugerida:
+
+Desarrollo de un sitio institucional para un estudio jurídico, priorizando confianza, claridad de información, estructura profesional y experiencia de navegación.
+
+Botón:
+
+VER PROYECTO ↗
+
+URL:
+
+https://ignaciovilla398.github.io/ambos-y-asociados/
+
+PROYECTO 03 — SOCIAL LINKS PROFILE
+
+Nombre:
+
+Social Links Profile
+
+Categoría:
+
+FRONTEND DEVELOPMENT · FRONTEND MENTOR
+
+URL:
+
+https://ignaciovilla398.github.io/Desafio-3-de-Frontend-mentor/
+
+Este proyecto corresponde a uno de los desafíos de Frontend Mentor. La propia página indica que fue codificado por Ignacio Villa.
+
+Descripción sugerida:
+
+Implementación de una interfaz frontend a partir de un desafío de Frontend Mentor, trabajando composición visual, responsive design, tipografía y estructura de componentes.
+
+Botón:
+
+VER PROYECTO ↗
+
+URL:
+
+https://ignaciovilla398.github.io/Desafio-3-de-Frontend-mentor/
+
+PROYECTO 04 — URCO EMPANADAS
+
+Nombre:
+
+URCO — Empanadas Argentinas
+
+Categoría:
+
+WEB DEVELOPMENT · GASTRONOMÍA
+
+URL:
+
+https://ignaciovilla398.github.io/URCO-empanadas/
+
+La web presenta una propuesta gastronómica de empanadas en Mar del Plata, con información de ubicación, variedades, promociones, horarios y pedido por WhatsApp.
+
+Descripción sugerida:
+
+Desarrollo de una landing gastronómica enfocada en identidad de marca, presentación de productos y contacto directo con el negocio.
+
+Botón:
+
+VER PROYECTO ↗
+
+URL:
+
+https://ignaciovilla398.github.io/URCO-empanadas/
+
+9. DISEÑO DE LA SECCIÓN PROYECTOS
+
+NO hacer simplemente cuatro cards idénticas en una grilla aburrida.
+
+Quiero una presentación editorial.
+
+Por ejemplo:
+
+01
+JEIPI BURGERS
+
+[ GRAN SCREENSHOT ]
+
+WEB DEVELOPMENT
+GASTRONOMÍA
+
+Descripción...
+
+VER PROYECTO →
+
+Luego:
+
+02
+AMBOS & ASOCIADOS
+
+                         [SCREENSHOT]
+
+Alternar la composición izquierda/derecha.
+
+Los proyectos pueden aparecer progresivamente mediante animaciones.
+
+Cada proyecto debe tener:
+
+número
+nombre
+categoría
+screenshot
+descripción
+tecnologías utilizadas si pueden determinarse de forma fiable
+botón para visitar el proyecto
+
+No inventar tecnologías si no se pueden verificar.
+
+10. EFECTO HOVER DE PROYECTOS
+
+Cuando el usuario coloque el mouse sobre un proyecto:
+
+aumentar ligeramente la imagen
+desplazarla unos pocos píxeles
+mostrar una flecha
+cambiar sutilmente el contraste
+animar el botón
+
+Todo debe ser elegante.
+
+NO utilizar efectos exagerados.
+
+11. SERVICIOS
+
+Crear sección:
+
+LO QUE PUEDO CONSTRUIR
+
+Presentar capacidades de forma visual.
+
+Desarrollo Web
+
+Sitios web modernos, responsive y optimizados.
+
+Landing Pages
+
+Páginas orientadas a presentar productos, servicios o negocios.
+
+Interfaces
+
+Diseño y desarrollo de interfaces web funcionales y atractivas.
+
+Experiencias Digitales
+
+Experiencias interactivas pensadas alrededor de una marca o producto.
+
+Integración de IA
+
+Exploración e incorporación de herramientas de inteligencia artificial en productos y procesos digitales.
+
+Importante:
+
+Presentarlo como capacidades actuales y áreas de interés, no como una lista de servicios profesionales que necesariamente ya ofrezco comercialmente.
+
+12. PROCESO
+
+Crear una sección:
+
+CÓMO TRABAJO
+
+Con cuatro pasos:
+
+01 — ENTENDER
+
+Comprender la idea, problema o necesidad.
+
+02 — DISEÑAR
+
+Definir estructura, contenido y experiencia.
+
+03 — DESARROLLAR
+
+Convertir la idea en una experiencia web funcional.
+
+04 — ITERAR
+
+Probar, mejorar y continuar evolucionando el producto.
+
+Utilizar una composición visual minimalista.
+
+13. TECNOLOGÍAS
+
+Crear una sección pequeña y elegante:
+
+STACK
+
+Mostrar únicamente tecnologías que realmente formen parte del proyecto o que sean relevantes para mi perfil.
+
+Por ejemplo:
+
+HTML
+CSS
+JavaScript
+TypeScript
+React
+Next.js
+Tailwind CSS
+Git
+GitHub
+
+Si alguna tecnología no está confirmada, no presentarla como experiencia consolidada.
+
+14. FILOSOFÍA PERSONAL
+
+Crear una sección visual con una frase grande.
+
+Por ejemplo:
+
+No quiero limitarme a escribir código.
+Quiero construir cosas que tengan un propósito.
+
+Debajo:
+
+Cada proyecto es una oportunidad para aprender algo nuevo, mejorar mi forma de trabajar y acercarme un poco más a la clase de desarrollador que quiero ser.
+
+Esta sección debe ser emocional y visualmente potente, pero sin exagerar.
+
+15. CONTACTO
+
+Crear una sección final:
+
+¿TENÉS UNA IDEA?
+
+Texto:
+
+Si estás trabajando en un proyecto, negocio o idea digital y querés convertirla en una experiencia web, hablemos.
+
+Botón principal:
+
+CONTACTARME
+
+También mostrar:
+
+IGNACIO VILLA
+
+y dejar preparado el espacio para:
+
+Email
+GitHub
+LinkedIn
+Instagram
+
+No inventar datos de contacto que no hayan sido proporcionados.
+
+Si todavía no existe alguno, dejarlo preparado como placeholder fácilmente editable.
+
+16. FOOTER
+
+Footer minimalista.
+
+Mostrar:
+
+IGNACIO VILLA
+
+Desarrollador Web · Full Stack · Tecnología & IA
+
+Links:
+
+Inicio
+Sobre mí
+Proyectos
+Servicios
+Contacto
+
+Agregar:
+
+© 2026 Ignacio Villa. Todos los derechos reservados.
+
+17. NAVEGACIÓN
+
+Navbar fija o sticky.
+
+Logo:
+
+IGNACIO VILLA
+
+Links:
+
+01 Sobre mí
+02 Proyectos
+03 Servicios
+04 Contacto
+
+Agregar botón:
+
+HABLEMOS ↗
+
+En mobile utilizar menú hamburguesa.
+
+La navegación debe ser extremadamente fluida.
+
+18. ANIMACIONES
+
+Utilizar Framer Motion.
+
+Animaciones recomendadas:
+
+fade in
+slide up
+scale muy leve
+stagger de elementos
+hover
+reveal al entrar en viewport
+transición entre secciones
+
+NO utilizar:
+
+parallax excesivo
+animaciones que dificulten la lectura
+elementos que se muevan constantemente
+efectos pesados
+WebGL innecesario
+
+La animación debe acompañar al diseño, no convertirse en el diseño.
+
+Implementar correctamente:
+
+prefers-reduced-motion
+19. RESPONSIVE DESIGN
+
+Debe funcionar perfectamente en:
+
+Desktop
+
+1920px
+1440px
+1280px
+
+Tablet
+
+1024px
+768px
+
+Mobile
+
+430px
+390px
+375px
+
+No simplemente reducir los elementos.
+
+En mobile adaptar:
+
+tipografías
+espaciado
+imágenes
+navegación
+proyectos
+botones
+composición visual
+20. SEO
+
+Agregar:
+
+title
+meta description
+Open Graph
+favicon
+semantic HTML
+headings correctamente estructurados
+
+Title:
+
+Ignacio Villa — Desarrollador Web
+
+Meta description:
+
+Portfolio de Ignacio Villa, desarrollador web enfocado en crear experiencias digitales modernas, funcionales y orientadas a productos.
+
+21. PERFORMANCE
+
+Priorizar:
+
+carga rápida
+imágenes optimizadas
+lazy loading cuando corresponda
+evitar JavaScript innecesario
+evitar librerías innecesarias
+evitar animaciones pesadas
+
+El sitio debe sentirse rápido.
+
+22. IMPORTANTE: NO INVENTAR INFORMACIÓN
+
+Este punto es obligatorio.
+
+El portfolio debe construirse exclusivamente alrededor de información real.
+
+NO inventar:
+
+clientes
+empresas
+testimonios
+títulos universitarios
+años de experiencia
+cantidad de proyectos
+cantidad de clientes
+facturación
+estadísticas
+premios
+reconocimientos
+conocimientos que no hayan sido proporcionados
+
+Mis cuatro proyectos reales son:
+
+Jeipi Burgers
+Ambos & Asociados
+Social Links Profile — Frontend Mentor
+URCO Empanadas
+
+Las cuatro URLs son:
+
+https://ignaciovilla398.github.io/JEIPI-BURGERS/
+
+https://ignaciovilla398.github.io/ambos-y-asociados/
+
+https://ignaciovilla398.github.io/Desafio-3-de-Frontend-mentor/
+
+https://ignaciovilla398.github.io/URCO-empanadas/
+23. PERSONALIDAD DEL DISEÑO
+
+El resultado final debería transmitir:
+
+Ignacio Villa
+
+→ curioso
+→ autodidacta
+→ tecnológico
+→ creativo
+→ orientado a construir
+→ interesado en IA
+→ obsesionado con mejorar
+→ enfocado en proyectos reales
+
+Pero sin decir literalmente todas esas palabras.
+
+La personalidad debe surgir del diseño, los textos y los proyectos.
+
+24. DIRECCIÓN ARTÍSTICA
+
+Quiero que tomes como referencia visual portfolios modernos de desarrolladores y estudios digitales, pero NO copies ningún diseño existente.
+
+Crear una identidad propia.
+
+La página debería sentirse como:
+
+"Este es el portfolio de alguien que está construyendo seriamente su carrera tecnológica."
+
+No debe parecer:
+
+"Una plantilla de portfolio descargada de Internet."
+
+25. RESULTADO FINAL
+
+Quiero una landing completa con esta estructura:
+
+NAVBAR
+
+        ↓
+
+HERO
+IGNACIO VILLA
+Desarrollador Web · Full Stack · Tecnología & IA
+
+        ↓
+
+MARQUEE
+
+        ↓
+
+SOBRE MÍ
+
+        ↓
+
+PROYECTOS
+01 — JEIPI BURGERS
+02 — AMBOS & ASOCIADOS
+03 — SOCIAL LINKS PROFILE
+04 — URCO EMPANADAS
+
+        ↓
+
+SERVICIOS / CAPACIDADES
+
+        ↓
+
+STACK
+
+        ↓
+
+PROCESO
+
+        ↓
+
+MANIFIESTO / FILOSOFÍA
+
+        ↓
+
+CONTACTO
+
+        ↓
+
+FOOTER
+26. OBJETIVO PRINCIPAL
+
+El visitante debe entrar y entender en pocos segundos:
+
+Quién soy → qué hago → qué sé construir → qué proyectos hice → cómo contactarme.
+
+La prioridad absoluta es que el portfolio tenga una identidad fuerte alrededor de Ignacio Villa.
+
+Los proyectos reales deben ser el centro de la prueba de trabajo.
+
+No quiero un portfolio que solamente diga que sé programar.
+
+Quiero un portfolio que muestre lo que soy capaz de construir.
+
+INSTRUCCIÓN FINAL PARA LA IA
+
+Antes de comenzar a escribir código:
+
+Analizá la estructura completa del proyecto actual.
+No borres archivos existentes sin necesidad.
+Identificá el framework utilizado.
+Mantené las tecnologías existentes cuando sea razonable.
+Construí el portfolio de forma modular.
+Utilizá componentes reutilizables.
+Priorizá calidad visual y responsive design.
+Utilizá mis cuatro proyectos como contenido real.
+No inventes información.
+Al finalizar, verificá que el proyecto compile correctamente.
+Corregí errores de TypeScript, JSX, CSS o rutas.
+Verificá especialmente que los cuatro enlaces funcionen correctamente.
+El resultado debe estar listo para ejecutarse localmente y posteriormente desplegarse en GitHub Pages/Vercel.
+
+No empieces explicándome qué vas a hacer. Ejecutá el trabajo directamente sobre el proyecto.

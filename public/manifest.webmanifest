@@ -1,0 +1,16 @@
+{
+  "name": "Ignacio Villa — Desarrollador Web",
+  "short_name": "Ignacio Villa",
+  "description": "Portfolio de Ignacio Villa, desarrollador web enfocado en crear experiencias digitales modernas, funcionales y orientadas a productos.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#08090B",
+  "theme_color": "#08090B",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

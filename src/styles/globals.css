@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --ink: 8 9 11;
+    --line: 255 255 255 / 0.08;
+  }
+
+  * {
+    @apply border-white/[0.07];
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-ink-950 text-bone-200 font-sans antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  /* Tipografía editorial: titulares con tracking ajustado */
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-bone-50;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: rgb(79 140 255 / 0.28);
+    color: #fff;
+  }
+
+  /* Scrollbar discreta, coherente con la estética oscura */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #08090b;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #24272d;
+    border-radius: 999px;
+    border: 3px solid #08090b;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #363a42;
+  }
+
+  :focus-visible {
+    outline: 2px solid #4f8cff;
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  img {
+    @apply select-none;
+  }
+}
+
+@layer components {
+  /* Contenedor principal del sitio */
+  .shell {
+    @apply mx-auto w-full max-w-shell px-gutter;
+  }
+
+  /* Etiqueta pequeña tipo "eyebrow" editorial */
+  .eyebrow {
+    @apply font-mono text-eyebrow uppercase text-bone-400;
+  }
+
+  /* Línea divisoria fina */
+  .hairline {
+    @apply h-px w-full bg-white/[0.07];
+  }
+
+  /* Superficie de tarjeta sobria */
+  .surface {
+    @apply rounded-2xl border border-white/[0.07] bg-ink-900/70 backdrop-blur-sm;
+  }
+
+  /* Botón primario */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-mono text-[0.7rem] uppercase tracking-[0.22em] transition-all duration-500 ease-editorial;
+  }
+
+  .btn-primary {
+    @apply btn bg-bone-50 text-ink-950 hover:bg-accent-soft;
+  }
+
+  .btn-ghost {
+    @apply btn border border-white/15 text-bone-100 hover:border-white/40 hover:bg-white/[0.04];
+  }
+
+  /* Enlace con subrayado animado */
+  .link-underline {
+    @apply relative inline-block;
+  }
+  .link-underline::after {
+    content: '';
+    @apply absolute -bottom-0.5 left-0 h-px w-0 bg-current transition-all duration-500 ease-editorial;
+  }
+  .link-underline:hover::after {
+    @apply w-full;
+  }
+}
+
+@layer utilities {
+  /* Apilado de secciones con separación vertical consistente */
+  .section-y {
+    @apply py-[clamp(4.5rem,10vw,10rem)];
+  }
+
+  .text-stroke {
+    -webkit-text-stroke: 1.5px rgba(247, 247, 245, 0.45);
+    color: transparent;
+  }
+
+  .grain {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    background-size: 3px 3px;
+  }
+
+  .mask-fade-x {
+    mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Máscara circular suave: funde los bordes de la pieza 3D con el fondo. */
+  .mask-circle {
+    -webkit-mask-image: radial-gradient(closest-side, #000 52%, rgba(0, 0, 0, 0.55) 74%, transparent 100%);
+    mask-image: radial-gradient(closest-side, #000 52%, rgba(0, 0, 0, 0.55) 74%, transparent 100%);
+  }
+
+  /* Máscara para las capturas de la cabecera del hero. */
+  .mask-fade-b {
+    -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Movimiento reducido: se respeta de forma global, incluso en animaciones CSS.
+--------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-marquee {
+    animation: none !important;
+    transform: none !important;
+  }
+}
